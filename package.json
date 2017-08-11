@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANDREWTENAJEROS/loginsignup.git"
+    "url": "git+https://github.com/ANDREWTENAJEROS/attendanceChecker.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andrewtenajeros/loginsignup/issues"
+    "url": "https://github.com/andrewtenajeros/attendanceChecker/issues"
   },
-  "homepage": "https://github.com/andrewtenajeros/loginsignup#readme",
+  "homepage": "https://github.com/andrewtenajeros/attendanceChecker#readme",
   "dependencies": {
     "express": "^4.15.4"
   },
