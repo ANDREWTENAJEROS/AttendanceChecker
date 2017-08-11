@@ -1,23 +1,25 @@
 {
-  "name": "AttendanceChecker",
+  "name": "login-signup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisDiannee/AttendanceChecker.git"
+    "url": "git+https://github.com/ANDREWTENAJEROS/loginsignup.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChrisDiannee/AttendanceChecker/issues"
+    "url": "https://github.com/andrewtenajeros/loginsignup/issues"
   },
-  "homepage": "https://github.com/ChrisDiannee/AttendanceChecker#readme",
+  "homepage": "https://github.com/andrewtenajeros/loginsignup#readme",
   "dependencies": {
-    "express": "^4.15.3"
-  }
+    "express": "^4.15.4"
+  },
+  "devDependencies": {}
 }

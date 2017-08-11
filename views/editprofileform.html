@@ -113,26 +113,37 @@ div#sc-edprofile input[type="submit"]:hover {
 <div id="sc-edprofile">
   <h1>Edit Profile Form</h1>
   <div class="sc-container">
-    <input type="text" placeholder="Username" />
-    <input type="text" placeholder="Email Address" />
-    <input type="password" placeholder="Password" />
-    <input type="text" placeholder="Website" />
-    <input type="text" placeholder="First Name" />
-    <input type="text" placeholder="Last Name" />
-    <textarea placeholder="Bio" /></textarea>
-    <select>
-      <option value="">Male</option>
-      <option value="">Female</option>
-    </select>
-    <input type="text" placeholder="Facebook Profile URL" />
-    <input type="text" placeholder="Twitter Profile URL" />
-    <input type="text" placeholder="Google+ Profile URL" />
-    <input type="text" placeholder="LinkedIn Profile URL" />
+    <input type="txt_Name" placeholder="Username" />
+    <input type="txt_emale" placeholder="Email Address" />
+    <input type="txt_password" placeholder="Password" />
+   
     <input type="submit" value="DONE" />
   </div>
 </div>
 
-
+<script>
+            function readeuser(){
+                console.log(json_names)
+        localStorage.setItem('json_names',json_names); 
+            }
+            function createuserr(){
+                let name = document.querySelector('#txt_Name').value; 
+                names.push(name); 
+                let email = document.querySelector('#txt_email').value; 
+                email.push(email); 
+                let password = document.querySelector('#txt_password').value; 
+                password.push(password);
+            }
+            }
+            function updateuser(){
+                let name = document.querySelector('#txt_Name').value; 
+                names.push(name); 
+                let email = document.querySelector('#txt_email').value; 
+                email.push(email); 
+                let password = document.querySelector('#txt_password').value; 
+                password.push(password);
+            }
+        </script>
 
 
 
