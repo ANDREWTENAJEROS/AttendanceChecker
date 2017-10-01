@@ -2,8 +2,13 @@
 //require modules
 var express = require('express');
 var path = require('path');
-//instantiate express
+
+var router = express.Router();
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/5000');
+
 var app = express();
+
 //set port
 app.set('port', (process.env.PORT || 5000));
 //use static files

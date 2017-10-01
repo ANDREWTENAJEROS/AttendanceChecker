@@ -4,9 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Attendance Checker App</title>
-   
-    <link rel="stylesheet" href="css/jquery.sidr.light.css"/>
-	<link rel="stylesheet" href="css/animate.min.css"/>
+
 	<link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
@@ -38,7 +36,8 @@
         </div>
         <div class="grid_6 prefix_1">
             <div class="form login-form">
-                <form action="home.html">
+                <!-- <form action="home.html"> -->
+                <form >
                     <h3 class="rs title-form">Register</h3>
                     <div class="box-white">
                         <h4 class="rs title-box">Don't have an account?</h4>
@@ -66,13 +65,13 @@
                                 </div>
                             </div>
                             <p class="rs pb10">By signing up, you agree to our <a href="#" class="fc-orange">terms of use</a> and <a href="#" class="fc-orange">privacy policy</a>.</p>
-                             <a href="home.html">
+                             <!-- <a href="home.html"> -->
                             <p class="rs ta-c">
-                               
 
-                                <button class="btn btn-red btn-submit" type="submit">Register</button>
+                                <form action="/users">
+                                <button onclick="createUser" class="btn btn-red btn-submit" type="submit">Register</button>
+                                </form>
 
-                                
                             </p>
 
                             </a>
@@ -102,8 +101,8 @@
                             </label><a href="homelogin.html" class="fc-orange">
 
                             <p class="rs ta-c pb10">
-                            
-                                <button class="btn btn-red btn-submit" type="submit">Login</button>
+                            <!-- <form action -->
+                                <button onclick="readUser" class="btn btn-red btn-submit" type="submit">Login</button>
 
                             </p></a>
                             <p class="rs ta-c">
